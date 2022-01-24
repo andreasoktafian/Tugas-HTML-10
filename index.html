@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar HTML - NIOMIC</title>
+</head>
+<body>
+    <p>Format MP3 dengan atribut controls</p>
+    <audio src="mp3.mp3" controls preload="auto"></audio>
+    <p>Format MP3 dengan atribut controls dan loop</p>
+    <audio src="mp3.mp3" controls preload="auto" loop></audio>
+    <p>Format MP3 dengan atribut controls dan muted</p>
+    <audio src="mp3.mp3" controls preload="auto" muted></audio>
+    <p>Format FLAC dengan atribut controls</p>
+    <audio src="flac.flac" controls preload="auto"></audio>
+    <p>Format FLAC atau MP3 dengan atribut controls</p>
+    <audio controls>
+        <source src="flac.flac" type="audio/flac">
+        <source src="mp3.mp3" type="audio/mp3">
+    </audio>
+</body>
+</html>
